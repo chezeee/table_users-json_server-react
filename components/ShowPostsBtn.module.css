@@ -1,0 +1,12 @@
+.postsShowBtn {
+  height: max-content;
+  padding: 15px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+.postsShowBtn:hover {
+  background-color: rgb(225, 225, 225);
+}

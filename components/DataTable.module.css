@@ -1,0 +1,47 @@
+.searchForm {
+  width: 35%;
+  border: 1px solid grey;
+  margin-bottom: 10px;
+}
+
+.tableWrapper table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 1200px;
+}
+
+.tHeadStyle th{
+  cursor: pointer;
+  color: rgb(81, 24, 24);
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px 5px;
+}
+
+.tHeadStyle th:hover {
+  background-color: rgb(220, 238, 232);
+}
+
+.sort::after {
+  content: '🔺';
+}
+
+.sort.desc::after {
+  content: '🔻';
+}
+
+.tBodyStyle td {
+  border: 1px solid black;
+  padding: 5px 5px;
+}
+
+.tBodyStyle td:last-child{
+  display:flex;
+  gap: 5px;
+  justify-content: space-between;
+  border: 0;
+}
+
+.editForm td{
+  min-height: 50px;
+}

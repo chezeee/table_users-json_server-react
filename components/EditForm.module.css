@@ -1,0 +1,11 @@
+.editRow td:last-child{
+  display:flex;
+  gap: 5px;
+  padding: 5px;
+  justify-content: center;
+  border: 0;
+}
+
+.editRow td:first-child input {
+  max-width: 30px;
+}
